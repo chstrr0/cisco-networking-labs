@@ -6,7 +6,7 @@ Simulates a multi-site enterprise network to practice bridging interior routing 
 ## 🏗️ Topology Architecture
 The topology connects two network zones via Cisco 2911 routers and Catalyst 2960 switches.
 
-![Topology Diagram](topology.png)
+![Topology Diagram](bgp-eigrp-topology.png)
 
 * **Interior Routing (EIGRP):** AS 100 configured for fast internal convergence.
 * **Exterior Routing (BGP):** Peer routing established between core boundary routers.
